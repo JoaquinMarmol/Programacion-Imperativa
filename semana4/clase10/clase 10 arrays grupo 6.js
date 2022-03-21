@@ -2,7 +2,7 @@ let nombres = [ 'Joaquin', 'Paula', 'Gonzalo', 'Joaquin A', 'Victor', 'Katyana']
 
 // console.table para arrays con objetos
 let info = [ {nombre: 'Juan', apellido: 'Perez'}, {hola: 'chau', uno: '1'}];
-console.table(info);
+console.table(info);e
 
 //A. Acceder a elementos específicos de un array.
 console.log(nombres.indexOf('Joaquin'));
@@ -108,3 +108,4 @@ function arraysIguales(array1, array2){
 }
 
 console.log('Son iguales? ' + arraysIguales(asiaScores, euroScores))
+
